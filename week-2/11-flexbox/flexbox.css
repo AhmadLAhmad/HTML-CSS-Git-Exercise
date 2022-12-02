@@ -1,8 +1,16 @@
 /* Add your own CSS code below */
-.panel {
-  display: flex;
-}
+
 .countries--first {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.countries--second {
+  width: 80%;
+  flex-direction: column;
+}
+
+.countries--third {
   display: flex;
   flex-direction: column-reverse;
 }
